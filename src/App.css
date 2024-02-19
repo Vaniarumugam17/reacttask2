@@ -1,0 +1,51 @@
+.cart-badge {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem; /* Adjust as needed */
+  height: 1.25rem; /* Adjust as needed */
+  border-radius: 9999px; /* Make it round */
+  background-color: #ff0000; /* Red background color */
+  color: #ffffff; /* White text color */
+  top: -0.625rem; /* Adjust as needed */
+  left: 0.1875rem; /* Adjust as needed */
+}
+
+.product-filter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Standard CSS for App Header */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Standard CSS for logo spin animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
